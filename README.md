@@ -33,3 +33,7 @@ The “db.collection_name.updateOne” command is used to update a single docume
 ### *Delete:* ###
 
 The “db.collection_name.deleteOne” command is used to delete a single document within the collection_name of the database based on a specific condition. While the “db.collection_name.deleteMany” command is used to delete multiple documents within the collection_name of the database based on a given condition. The results can be verified by using the “db.collection_name.find()” command to display all the current documents in the collection.
+
+![mongo7](https://user-images.githubusercontent.com/54772502/97082614-9fc62d00-1628-11eb-9e06-57dc5750a1be.PNG)
+
+Execute “exit” command to come out of the mongoDB terminal. 
