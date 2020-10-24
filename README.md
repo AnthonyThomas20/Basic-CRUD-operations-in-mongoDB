@@ -27,3 +27,9 @@ The “db.collection_name.find()” command is used to display all the documents
 ### *Update:* ###
 
 The “db.collection_name.updateOne” command is used to update a single document within the collection_name of the database based on a specific condition. While the “db.collection_name.updateMany” command is used to update multiple documents within the collection_name of the database based on a given condition. To verify that updation takes place, check that the value of “matchedCount” and “modifiedCount” is the same and greater than 0. The results can also be verified by using the find() command to display all updated documents.
+
+![mongo6](https://user-images.githubusercontent.com/54772502/97082579-6a214400-1628-11eb-97d6-d84e4dfc4f5d.PNG)
+
+### *Delete:* ###
+
+The “db.collection_name.deleteOne” command is used to delete a single document within the collection_name of the database based on a specific condition. While the “db.collection_name.deleteMany” command is used to delete multiple documents within the collection_name of the database based on a given condition. The results can be verified by using the “db.collection_name.find()” command to display all the current documents in the collection.
