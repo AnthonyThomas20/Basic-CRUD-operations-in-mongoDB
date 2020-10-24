@@ -11,3 +11,7 @@ Run the installer and then verify installation by going into the bin folder of t
 ### *Create:* ###
 
 By default mongoDB has three databases: admin, config and local. We can view them using the “show” command. The “use db_name” command is to create our own database and the “db.createCollection” command is to create a collection in the database which is a grouping of one or more documents in a database.
+
+![mongo2](https://user-images.githubusercontent.com/54772502/97082490-c9328900-1627-11eb-9013-27555d3a3323.PNG)
+
+The “db.collection_name.insertOne” command is used to create a single document within the collection_name of the database. While the “db.collection_name.insertMany” command is used to create multiple documents within the collection_name of the database.
